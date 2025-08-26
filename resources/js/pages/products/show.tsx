@@ -60,7 +60,7 @@ export default function ShowProduct() {
                                 <div>
                                     <h3 className="text-lg font-medium text-gray-900 dark:text-white mb-4">Product Image</h3>
                                     <img 
-                                        src={route('home') + 'storage/' + product.image_path} 
+                                        src={`/storage/${product.image_path}`}
                                         alt={product.name} 
                                         className="w-full max-w-sm rounded-lg border border-gray-200 dark:border-gray-700" 
                                     />

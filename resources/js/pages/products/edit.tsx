@@ -69,7 +69,7 @@ export default function EditProduct() {
                             <div className="mt-2">
                                 <span className="text-sm text-gray-500 dark:text-gray-400">Current image:</span>
                                 <img 
-                                    src={route('home') + 'storage/' + product.image_path} 
+                                    src={`/storage/${product.image_path}`}
                                     alt="Current" 
                                     className="mt-1 w-20 h-20 object-cover rounded border" 
                                 />
